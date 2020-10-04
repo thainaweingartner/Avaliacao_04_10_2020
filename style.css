@@ -1,0 +1,104 @@
+#page-home {
+  margin: 0;
+  height: 100vh;
+  font-family: Lato;
+}
+
+header {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white; 
+  box-shadow: 0px 4px 4px rgb(0, 0, 0, 0.25);
+}
+
+header .menu {
+  font-size: 18px;
+  display: flex;
+  color:#E03F13;
+  font-weight: 700;
+  width: 60vw;
+  justify-content: space-around;
+}
+
+header .menu a:hover {
+  color: #15465F;
+}
+
+header img {
+  width: 150px;
+  margin: 0 50px;
+}
+
+main {
+  display: flex;
+  padding: 50px 0 50px 50px;
+}
+
+.slogan {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  color: #15465F;
+  margin: auto auto auto 0;
+  max-width: 550px;
+  min-width: 300px;
+}
+
+main .slogan h1 {
+  font-size: 40px;
+  line-height: 50px;
+  margin-bottom: 20px;
+  font-weight: 800;
+}
+
+main .slogan p {
+  font-size: 20px;
+  line-height: 30px;
+}
+
+main img {
+  width: 40%;
+  margin: auto 0 auto 50px;
+  border-radius: 20px 0 0 20px;
+  min-width: 310px;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #E03F13;
+  color: white;
+  font-weight: 300;
+  padding: 20px 50px;
+}
+
+footer ul {
+  list-style: none;
+  line-height: 25px;
+}
+
+footer ul h3{
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+
+footer .infos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+footer img {
+  width: 60px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+ 
